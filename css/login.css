@@ -1,0 +1,54 @@
+body {
+    background-image: url('../image/wallpvinyl.jpg');
+}
+.login-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+
+}
+.login_header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.login_header img {
+width: 100px;
+padding-bottom: 10px;
+}
+
+.login_header h1 {
+    color: rgba(105, 102, 201, 0.959);
+    font-size: 1.5em;
+}
+.login_input {
+    border: 2px solid rgb(76, 36, 221);
+    border-radius: 8px;
+    color: rgba(89, 53, 219, 0.712);
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;
+    width: 100%;
+    padding: 15px;
+
+}
+.login_button {
+    background-color: rgba(89, 53, 219, 0.911);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+}
+.login_button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+
+}
