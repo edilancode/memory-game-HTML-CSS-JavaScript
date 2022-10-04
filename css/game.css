@@ -1,5 +1,6 @@
 body {
     background-image: url('../image/wallpvinyl.jpg');
+    overflow: hidden;
 }
 
 main {
@@ -24,11 +25,12 @@ header {
     margin: 0 0 30px;
     border-radius: 5px;
 }
+
 .grid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    gap: 5px;
-    width: 95%;
+    gap: 1px;
+    width: 98%;
     max-width: 900px;
     margin: 0;
     background-color: rgba(216, 81, 63, 0.37);
@@ -37,7 +39,7 @@ header {
 
 .card {
     aspect-ratio: 1/1;
-    width: 95%;
+    width: 98%;
     position: relative;
     transition: all 400ms ease;
     transform-style: preserve-3d;
